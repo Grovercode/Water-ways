@@ -55,11 +55,11 @@ const Description = ({ title }) => {
         description="Both manatees and dugongs are found in warm tropical or subtropical waters, however their habitats don’t overlap. The dugong’s range is from East Africa to Australia, while manatees are generally found in three species-specific regions."
         theme={THEME_TYPES.LIGHT}
       />
-      <InfoCard
+      {/* <InfoCard
         title="Habitat & Population Status"
         description="Both manatees and dugongs are found in warm tropical or subtropical waters, however their habitats don’t overlap. The dugong’s range is from East Africa to Australia, while manatees are generally found in three species-specific regions."
         theme={THEME_TYPES.BLUE}
-      />
+      /> */}
       <InfoCard
         title="Fun Fact"
         description="Dugongs are known to have a lifespan of up to 70 years, making them one of the longest-living marine mammals. They can live for several decades and have been known to reach ages comparable to those of humans."
