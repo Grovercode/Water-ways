@@ -13,6 +13,7 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 24px;
   font-weight: 800;
+  text-align: center;
 `;
 
 const SecondaryText = styled.div`
@@ -24,7 +25,8 @@ const SecondaryText = styled.div`
 const Description = ({ title }) => {
   return (
     <Wrapper>
-      {/* <Title>{title}</Title>
+      <Title>{title}</Title>
+      {/* 
       <SecondaryText>
         The dugong is a marine mammal. It is one of four living species of the
         order Sirenia, which also includes three species of manatees. It is the
@@ -34,7 +36,7 @@ const Description = ({ title }) => {
       </SecondaryText> */}
 
       <InfoCard
-        title={title}
+        title={"Overview"}
         description={`The dugong is a marine mammal. It is one of four living species of the
         order Sirenia, which also includes three species of manatees. It is the
         only living representative of the once-diverse family Dugongidae; its
@@ -51,17 +53,17 @@ const Description = ({ title }) => {
       <InfoCard
         title="Habitat & Population Status"
         description="Both manatees and dugongs are found in warm tropical or subtropical waters, however their habitats don’t overlap. The dugong’s range is from East Africa to Australia, while manatees are generally found in three species-specific regions."
-        theme={THEME_TYPES.DARK}
+        theme={THEME_TYPES.LIGHT}
       />
       <InfoCard
         title="Habitat & Population Status"
         description="Both manatees and dugongs are found in warm tropical or subtropical waters, however their habitats don’t overlap. The dugong’s range is from East Africa to Australia, while manatees are generally found in three species-specific regions."
-        theme={THEME_TYPES.LIGHT}
+        theme={THEME_TYPES.BLUE}
       />
       <InfoCard
         title="Fun Fact"
         description="Dugongs are known to have a lifespan of up to 70 years, making them one of the longest-living marine mammals. They can live for several decades and have been known to reach ages comparable to those of humans."
-        theme={THEME_TYPES.BLUE}
+        theme={THEME_TYPES.YELLOW}
       />
     </Wrapper>
   );
