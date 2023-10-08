@@ -16,6 +16,11 @@ const Wrapper = styled.div`
     255,
     0.2
   ); /* Set a transparent background color */
+  &:before {
+    width: 100%;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+  }
 `;
 
 const Image = styled.img`
