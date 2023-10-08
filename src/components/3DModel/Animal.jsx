@@ -7,7 +7,7 @@ export default function Model(props) {
 
   useFrame(() => {
     if (!props.isTouching) {
-      modelRef.current.rotation.y += 0.008; // Adjust the rotation speed here
+      modelRef.current.rotation.y += 0.012; // Adjust the rotation speed here
     }
   });
 
