@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Logo from "../../assets/fish.png";
 
 const Wrapper = styled.div`
+  -webkit-backdrop-filter: blur(10px);
   width: 100%;
   padding: 10px 0px;
   z-index: 2;
@@ -16,16 +17,6 @@ const Wrapper = styled.div`
     255,
     0.2
   ); /* Set a transparent background color */
-  &:before {
-    content: "";
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(10px);
-  }
 `;
 
 const Image = styled.img`
